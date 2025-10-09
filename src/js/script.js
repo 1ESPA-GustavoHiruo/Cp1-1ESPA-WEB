@@ -77,5 +77,9 @@ switch (faixa)
 }
 
 
+//Exercício 4,Faça um programa que que faça uma repetição até 50
 
-
+for (let i = 1; i <= 50; i++) 
+    {
+    console.log("O valor é:", i);
+}
