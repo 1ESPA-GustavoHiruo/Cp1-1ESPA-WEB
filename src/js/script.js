@@ -83,5 +83,42 @@ switch (faixa)
 
 for (let i = 1; i <= 50; i++)   //para i menor ou igual que 50 ele adiciona 1 a contagem com "i++"
     {
-    console.log("O valor é:", i);
+        console.log("O valor é:", i);
+}
+
+
+/*Exercíico 5, crie um progama que receba um nome de usuário e uma senha e verifique se eles correspondem aos
+dados de um usúario cadastrado. Considere que o usuário cadastrado possui nome usuário "admin" e
+senha "1234". O progama deve exibir uma mensagem indicando se o login foi realizado com susesso ou
+se houve falha de autenticação. Exemplifique e demonste!*/
+
+// Primeira senha e usuario cadastrado 
+const usuario_cadastrado = "admin";
+const senha_cadastrada = "1234";
+
+const user = "admin";
+const user_senha = "1234";
+
+// Verificação do log e senha 
+
+if (user == usuario_cadastrado && user_senha == senha_cadastrada)
+    {
+        console.log ("Login realizado com sucesso!")
+}
+
+else {
+    consolore.log ("Falha de autenticação!!")
+}
+
+// Falha de verificação do login e senha
+
+const user2 = "Corinthians"
+const senha2 = "5678"
+if (user2 == usuario_cadastrado && senha2 == senha_cadastrada)
+    {
+        console.log ("Login realizado com sucesso!")
+}
+
+else {
+    console.log ("Falaha de autenticação!!")
 }
