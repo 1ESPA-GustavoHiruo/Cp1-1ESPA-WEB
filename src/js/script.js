@@ -79,7 +79,7 @@ switch (faixa)
 
 //Exercício 4,Faça um programa que que faça uma repetição até 50
 
-for (let i = 1; i <= 50; i++) 
+for (let i = 1; i <= 50; i++)   //para i menor ou igual que 50 ele adiciona 1 a contagem com "i++"
     {
     console.log("O valor é:", i);
 }
