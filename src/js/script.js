@@ -122,3 +122,28 @@ if (user2 == usuario_cadastrado && senha2 == senha_cadastrada)
 else {
     console.log ("Falaha de autenticação!!")
 }
+
+/* Exercício 6 Vamos criar um progama que calcule a média de 7 notas e exiba uma mensagem indicadndo se aluno
+foi aprovado ou reprovado.  Considere que a média mínima para a provaçao é 6*/
+
+const nota1 = 2.0;
+const nota2 = 3.5;
+const nota3 = 4.5;
+const nota4 = 5.5;
+const nota5 = 10 ;
+const nota6 = 9.5;
+const nota7 = 10 ;
+
+const total = nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7;
+const media = total/7;
+console.log ("A média do aluno é:",media);
+// Se a nota do aluno for maior ou igual a 6 aluno aprovado 
+if (media >=6 )
+    {
+        console.log ("Aluno aprovado! :)")
+}
+else {
+    console.log ("Aluno reprovado! :( ")
+}
+
+
