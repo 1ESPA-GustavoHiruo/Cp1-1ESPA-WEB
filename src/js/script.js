@@ -2,16 +2,18 @@
 
 // Variável com valor undefined
 let indefinido;
-console.log(indefinido);
+console.log("Saida:", indefinido);
+console.log("Tipo:", typeof indefinido);
 
 // Valor vazio
 let vazio = null;
-console.log(vazio);
+console.log("Saida:", vazio);
+console.log("Tipo:", typeof vazio);
 
 // Variável com valor de JavaScript
 let java = "JavaScript";
-console.log(java)
-
+console.log("Saida:", java)
+console.log("Tipo:", typeof java);
 
 // Exercicio 2, Como usar o operador 
 
