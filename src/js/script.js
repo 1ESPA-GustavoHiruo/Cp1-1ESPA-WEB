@@ -146,4 +146,14 @@ else {
     console.log ("Aluno reprovado! :( ")
 }
 
+/* Exercicio 7 Crie um progama que declare a variável como string depois converta para float  em seguida apresente
+o tipo da variável */
+
+let string = "171";
+console.log (string)
+console.log (typeof string)
+let float = parsefloat (string);
+console.log (float)
+console.log (typeof float)
+
 
