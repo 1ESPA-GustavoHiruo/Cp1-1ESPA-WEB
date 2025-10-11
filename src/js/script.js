@@ -2,18 +2,18 @@
 
 // Variável com valor undefined
 let indefinido;
-console.log("Saida:", indefinido);
-console.log("Tipo:", typeof indefinido);
+console.log(indefinido);
+console.log( typeof indefinido);
 
 // Valor vazio
-let vazio = null;
-console.log("Saida:", vazio);
-console.log("Tipo:", typeof vazio);
+const vazio = null;
+console.log(vazio);
+console.log( typeof vazio);
 
-// Variável com valor de JavaScript
-let java = "JavaScript";
-console.log("Saida:", java)
-console.log("Tipo:", typeof java);
+// Variável com valor em JavaScript
+var java = "JavaScript";
+console.log(java);
+console.log( typeof java);
 
 // Exercicio 2, Como usar o operador 
 
@@ -22,7 +22,7 @@ const b = 50
 const c = 10
 
 // != Remete a diferente de ...
-console.log(a != b)     // true 
+console.log(a != b);    // true 
 console.log(a != c)     // false
 
 // == sinal de igualdade 
@@ -152,12 +152,22 @@ o tipo da variável */
 let string = "171";
 console.log (string)
 console.log (typeof string)
-console.log(parseFloat("171"));
 
-// Exercicio 8, CONVERTA de float para int usando parseInt OS SEGUINTES NÚMEROS
+// Exercicio 8, CONVERTA de float para int usando parseInt
 
 // Usamos o parseInt para converter os numeros seguintes em inteiros 
+
 console.log(parseInt(30.345));
 console.log(parseInt(154.666));
 console.log(parseInt(50.888));
 console.log(parseInt(89.52));
+
+
+// Exercicio 9 CONVERTA de String para float usando parseFloat
+
+// Usamos o parseFlo para converter os numeros senguintes para número decimal 
+
+console.log(parseFloat("30.345"));
+console.log(parseFloat("154.666"));
+console.log(parseFloat("50.888"));
+console.log(parseFloat("089.52"));
