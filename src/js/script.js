@@ -123,7 +123,7 @@ else {
     console.log ("Falaha de autenticação!!")
 }
 
-/* Exercício 6 Vamos criar um progama que calcule a média de 7 notas e exiba uma mensagem indicadndo se aluno
+/* Exercício 6, Vamos criar um progama que calcule a média de 7 notas e exiba uma mensagem indicadndo se aluno
 foi aprovado ou reprovado.  Considere que a média mínima para a provaçao é 6*/
 
 const nota1 = 2.0;
@@ -137,7 +137,7 @@ const nota7 = 10 ;
 const total = nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7;
 const media = total/7;
 console.log ("A média do aluno é:",media);
-// Se a nota do aluno for maior ou igual a 6 aluno aprovado 
+// Se a nota do aluno for maior ou igual a 6 aluno aprovado, se não reprovado
 if (media >=6 )
     {
         console.log ("Aluno aprovado! :)")
@@ -146,14 +146,18 @@ else {
     console.log ("Aluno reprovado! :( ")
 }
 
-/* Exercicio 7 Crie um progama que declare a variável como string depois converta para float  em seguida apresente
+/* Exercicio 7, Crie um progama que declare a variável como string depois converta para float  em seguida apresente
 o tipo da variável */
 
 let string = "171";
 console.log (string)
 console.log (typeof string)
-let float = parsefloat (string);
-console.log (float)
-console.log (typeof float)
+console.log(parseFloat("171"));
 
+// Exercicio 8, CONVERTA de float para int usando parseInt OS SEGUINTES NÚMEROS
 
+// Usamos o parseInt para converter os numeros seguintes em inteiros 
+console.log(parseInt(30.345));
+console.log(parseInt(154.666));
+console.log(parseInt(50.888));
+console.log(parseInt(89.52));
