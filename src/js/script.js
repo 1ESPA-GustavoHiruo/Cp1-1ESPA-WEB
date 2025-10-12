@@ -1,37 +1,37 @@
 // Exercício 1, Como declarar uma variável
 
 // Variável com valor undefined
-let indefinido;
-console.log(indefinido);
-console.log( typeof indefinido);
+let Vinharia;
+console.log(Vinharia);
+console.log( typeof Vinharia);
 
 // Valor vazio
-const vazio = null;
-console.log(vazio);
-console.log( typeof vazio);
+const Uva = null;
+console.log(Uva);
+console.log( typeof Uva);
 
 // Variável com valor em JavaScript
-var java = "JavaScript";
-console.log(java);
-console.log( typeof java);
+var Vinho = "Vinharia Agnello";
+console.log(Vinho);
+console.log( typeof Vinho);
 
 // Exercicio 2, Como usar o operador 
 
-const a = 10
-const b = 50
-const c = 10
+const vinho1 = 10
+const vinho2 = 50
+const vinho3 = 10
 
 // != Remete a diferente de ...
-console.log(a != b);    // true 
-console.log(a != c)     // false
+console.log(vinho1 != vinho2);    // true 
+console.log(vinho1 != vinho3)     // false
 
 // == sinal de igualdade 
-console.log(a == c)     //true
-console.log(a == b)     //false
+console.log(vinho1 == vinho3)     //true
+console.log(vinho1 == vinho2)     //false
 
 // >= sinal de maior ou igual a ...
-console.log(b >= a)     //true
-console.log(a >= b)     //false
+console.log(vinho2 >= vinho1)     //true
+console.log(vinho1 >= vinho2)     //false
 
 
 /* Exercicio 3, Escreva um programa(usando Switch case) que calcula o índice de massa corporal (IMC) de uma pessoa
@@ -81,9 +81,9 @@ switch (faixa)
 
 //Exercício 4,Faça um programa que que faça uma repetição até 50
 
-for (let i = 1; i <= 50; i++)   //para i menor ou igual que 50 ele adiciona 1 a contagem com "i++"
+for (let UvaVerde = 1; UvaVerde <= 50; UvaVerde++)   //para i menor ou igual que 50 ele adiciona 1 a contagem com "i++"
     {
-        console.log("O valor é:", i);
+        console.log("O numero de vinhos em estoque é:", UvaVerde);
 }
 
 
@@ -112,7 +112,7 @@ else {
 
 // Falha de verificação do login e senha
 
-const user2 = "Corinthians"
+const user2 = "Metanol Abuser"
 const senha2 = "5678"
 if (user2 == usuario_cadastrado && senha2 == senha_cadastrada)
     {
